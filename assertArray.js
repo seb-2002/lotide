@@ -1,5 +1,5 @@
 //TEST FUNCTION
-const assertEqual = function (actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`🌈🌈 Assertion Passed: ${actual} === ${expected} 🌈🌈`);
   } else {
@@ -8,14 +8,15 @@ const assertEqual = function (actual, expected) {
 };
 
 
+
 //ARR ASSERT EQUAL
-const assertArray = function(actual, answer){
-  actualStr = "";
-  answerStr = "";
+const assertArray = function(actual, answer) {
+  let actualStr = "";
+  let answerStr = "";
   for (let elm of actual) {
     actualStr += elm;
-  };
-  for (let val of answer){
+  }
+  for (let val of answer) {
     answerStr += val;
   }
   assertEqual(actualStr, answerStr);
