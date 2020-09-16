@@ -1,13 +1,3 @@
-// FUNCTION IMPLEMENTATION
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`🌈🌈 Assertion Passed: ${actual} === ${expected} 🌈🌈`);
-  } else {
-    console.log(`🚧🚧 Assertion Failed: ${actual} !== ${expected} 🚧🚧`);
-  }
-};
-
-
 // countLetters takes a string and returns an object in which each letter appearing in the string is a key and a count is the value
 const countLetters = function(string) {
   // declare an output object
@@ -29,7 +19,7 @@ const countLetters = function(string) {
     }
   }
   return output;
-}
+};
 
 
 

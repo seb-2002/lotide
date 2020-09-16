@@ -1,7 +1,5 @@
 
-
-// countLetters takes a string and returns an object in which each letter appearing in the string is a key and an array of their index positions is the value
-const countLetters = function (string) {
+const countLetters = function(string) {
   // declare an output object
   const output = {};
   // loop through the string
