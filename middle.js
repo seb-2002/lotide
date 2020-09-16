@@ -53,4 +53,3 @@ const middle = function(arr) {
   return output;
 }
 
-\
