@@ -1,12 +1,3 @@
-//TEST FUNCTION
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`🌈🌈 Assertion Passed: ${actual} === ${expected} 🌈🌈`);
-  } else {
-    console.log(`🚧🚧 Assertion Failed: ${actual} !== ${expected} 🚧🚧`);
-  }
-};
-
 // This function compares arrays and returns a boolean value if they are equivalent
 const eqArrays = function (arr1, arr2) {
   // Define a boolean value as true
@@ -25,10 +16,8 @@ const eqArrays = function (arr1, arr2) {
   return equality;
 }
 
-let myArray = [1,2,3,4]
-let my2ndArray = [1,2,3,4]
+module.exports = eqArrays;
 
-console.log(eqArrays(myArray, my2ndArray));
 
 
 
