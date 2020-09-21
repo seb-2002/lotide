@@ -1,5 +1,5 @@
 
-const countLetters = function(string) {
+const letterPositions = function(string) {
   // declare an output object
   const output = {};
   // loop through the string
@@ -21,4 +21,5 @@ const countLetters = function(string) {
   return output;
 };
 
-module.exports = countLetters;
+module.exports = letterPositions;
+console.log(countLetters('whatsupp'));

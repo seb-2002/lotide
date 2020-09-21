@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@seb-2002/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "A copy of lodash published as part of a student assignment",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
