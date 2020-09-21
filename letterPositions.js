@@ -21,3 +21,4 @@ const countLetters = function(string) {
   return output;
 };
 
+module.exports = countLetters;

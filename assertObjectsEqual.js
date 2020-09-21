@@ -1,3 +1,5 @@
+const eqArrays = require('./eqArrays');
+
 // this function compares two objects to see if they have the same number of keys and returns 'true' if they do
 const sameNumberOfKeys = function (obj1, obj2) {
   // declare a variable equal to the array of keys of object 1
@@ -42,23 +44,7 @@ const compareValues = function (obj1, obj2) {
   return true;
 };
 
-// This function compares arrays and returns a boolean value if they are equivalent
-const eqArrays = function (arr1, arr2) {
-  // Define a boolean value as true
-  let equality = true;
-  // declare an index counter
-  let index = -1;
-  // as long as the index is less than the length of the array and the boolean remains true ...
-  while (index < arr1.length && equality) {
-    // increment the index
-    index++;
-    // then see if the elements at the index are not the same in both arrays. If they are not...
-    if (arr1[index] !== arr2[index]) {
-      equality = false;
-    }
-  }
-  return equality;
-};
+
 
 const eqObjects = function (actual, expected) {
   // Do these objects have the same number of keys?
@@ -84,9 +70,9 @@ const assertObjectsEqual = function (actual, expected) {
   }
 };
 
-const cd = { c: "1", d: ["2", 3] };
-const dc = { d: ["2", 3], c: "1" };
-assertObjectsEqual(cd, dc); // => true
+// const cd = { c: "1", d: ["2", 3] };
+// const dc = { d: ["2", 3], c: "1" };
+// assertObjectsEqual(cd, dc); // => true
 
-const cd2 = { c: "1", d: ["2", 3, 4] };
-assertObjectsEqual(cd, cd2); // => false
+// const cd2 = { c: "1", d: ["2", 3, 4] };
+// assertObjectsEqual(cd, cd2); // => false

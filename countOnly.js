@@ -23,3 +23,5 @@ const countOnly = function(arr, obj) {
   }
   return output;
 };
+
+module.exports = countOnly;

@@ -22,3 +22,5 @@ const findKeyByValue = function(object, searchItem) {
   }
 };
 
+module.exports = findKeyByValue;
+
