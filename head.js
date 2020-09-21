@@ -2,9 +2,7 @@ const assertEqual = require('./assertEqual');
 
 
 //HEAD FUNCTION
- const head = function(arr){
-   return arr[0];
- }
+ const head = arr => arr[0];
 
 
 
